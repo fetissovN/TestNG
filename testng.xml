@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SeleniumTest" verbose="1">
+    <test name="TutByTest">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="com.nick.Test" />
+        </classes>
+    </test>
+</suite>
