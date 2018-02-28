@@ -26,9 +26,6 @@ public class Test {
 
     private RegistrationPage registrationPage;
 
-    @FindBy(css = "span[class='_nb-button-content']")
-    private WebElement yandexAuthButton;
-
     @FindBy(xpath = "//button[@class='passport-Button' and contains (@type, 'submit')]")
     private WebElement submitYandex;
 
@@ -46,7 +43,6 @@ public class Test {
 
     public void goToMainPage(){
         driver.get("https://www.tut.by/");
-
     }
 
     @org.testng.annotations.Test
